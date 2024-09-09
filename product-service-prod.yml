@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/feign_client
     username: postgres
-    password: 1111@2222@
+    password: "{cipher}4a559835eb03ebcccc28220d2f8b254a0f5defa0454f168b2c881517bd0f713a"
   jpa:
     hibernate:
       ddl-auto: update
