@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: order-Service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/feign_client
+    username: postgres
+    password: 1111@2222@
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 8084
